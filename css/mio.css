@@ -19,24 +19,28 @@ body {
     left: 3%;
     top: 3%;
     position: fixed;
+    z-index: 50;
 }
 
 #alto-dx{
     right: 3%;
     top: 3%;
     position: fixed;
+    z-index: 50;
 }
 
 #basso-sx{
     left: 3%;
     bottom: 3%;
     position: fixed;
+    z-index: 50;
 }
 
 #basso-dx{
     right: 3%;
     bottom: 3%;
     position: fixed;
+    z-index: 50;
 }
 
 .menu-sopra {
