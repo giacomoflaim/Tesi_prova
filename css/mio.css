@@ -280,8 +280,8 @@ img {
   	color: #fd715f;
 }
 
-.btn-2{
-  	padding: 0.5rem 1rem 0 1rem;    	
+.btn-2 a{
+  	padding: 0.6rem 1rem 0 1rem;    	
   	background-size: 100%;
 	height: 30px;
 	width: auto;
@@ -308,7 +308,13 @@ img {
     border: 2px solid #fd715f;
 }
 
-.btn-2:hover {
+.btn-2 a:hover {
+	font-weight: 600;
+    border-top: 3px solid #fd715f;
+    color: #fd715f;
+}
+
+.btn-2 a.current {
 	font-weight: 600;
     border-top: 3px solid #fd715f;
     color: #fd715f;
@@ -348,9 +354,6 @@ h9{
     color: #303030;
     letter-spacing: 1.5;
 }
-
-
-
 
 .card-img-overlay{
     background-color: #303030;
@@ -404,46 +407,33 @@ h9{
     color: white;
 }
 
-/*
-.overlay {
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	margin: 20 15 20 15;
-	opacity: 0;
-	border: 0;
-	transition: .5s ease;
-	background-color:red;
-	
+/* filtro */
+.isotope-item {
+  z-index: 2;
 }
 
-
-
-
-
-/*.image-portfolio {
-	padding-top:20px;
-	padding-bottom: 20px;
-	
-	cursor: pointer;
+.isotope-hidden.isotope-item {
+  pointer-events: none;
+  z-index: 1;
 }
 
+.isotope,
+.isotope .isotope-item {
+  /* change duration value to whatever you like */
+  -webkit-transition-duration: 0.8s;
+  -moz-transition-duration: 0.8s;
+  transition-duration: 0.8s;
+}
 
+.isotope {
+  -webkit-transition-property: height, width;
+  -moz-transition-property: height, width;
+  transition-property: height, width;
+}
 
+.isotope .isotope-item {
+  -webkit-transition-property: -webkit-transform, opacity;
+  -moz-transition-property: -moz-transform, opacity;
+  transition-property: transform, opacity;
+}
 
-.text {
-	color: black;
-	font-family: 'IBM Plex Sans', sans-serif;
-	font-size: 14px;
-	font-weight: 700;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	-ms-transform: translate(-50%, -50%);
-	text-transform: uppercase;
-	text-align: center;
-	padding-bottom:0px;
-}*/
