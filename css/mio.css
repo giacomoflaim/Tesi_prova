@@ -215,8 +215,8 @@ p{
     margin-bottom: 8px;
 }
 
-.bot-40{
-    margin-bottom: 40px;s
+.bot-30{
+    margin-bottom: 30px;
 }
 
 /* methods-scheda */
@@ -548,8 +548,19 @@ h9{
 
 .fac-tips{
     border: 2px solid #fd715f; 
+    padding-left: 15px;
 }
 
 .p-tips{
     margin: 5px 0 15px 0;
+}
+
+
+
+
+@media screen and (max-width: 1282px) {
+    .mac-13{
+        max-width: 75%;
+        margin-bottom: 80px;
+    }
 }
