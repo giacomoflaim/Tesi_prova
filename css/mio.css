@@ -127,7 +127,7 @@ h4{
     font-family: 'IBM Plex Sans', sans-serif;
     font-weight: 700;
     font-size: 15px;
-	letter-spacing: 0.4px;
+	letter-spacing: 0.6px;
     color:#fd715f;
     margin-bottom: 0px;
     margin-top: 30px;
@@ -170,6 +170,20 @@ h8{
     
 }
 
+h10{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+	letter-spacing: 0.6px;
+    color:#303030;
+    margin-bottom: 30px;
+    
+}
+
+.semi-bold{
+    font-weight: 600;
+}
+
 p{
     font-family: 'IBM Plex Sans', sans-serif;
     font-weight: 400;
@@ -187,6 +201,22 @@ p{
 
 .top-30{
     margin-top: 30px;
+}
+
+.left-0{
+    margin-left: 0px;
+}
+
+.top-0{
+    margin-top: 0px;
+}
+
+.bot-8{
+    margin-bottom: 8px;
+}
+
+.bot-40{
+    margin-bottom: 40px;s
 }
 
 /* methods-scheda */
@@ -240,9 +270,10 @@ img {
 
 .link_style{
     color: #303030;
-    font-weight: 600;
+    font-weight: 400;
 	text-decoration:none;
 	background-image:linear-gradient(180deg,transparent 70%, rgba(253, 113, 95,.40) 0);
+    cursor: pointer;
 	}
 
 .link_style:hover{
@@ -281,10 +312,11 @@ img {
 
 
 .forms-btn{
-    margin: 0px;
+    
     margin-right: 10px;
     display: inline-flex;
     border: 2px solid #fd715f;
+    margin-bottom: 30px;
 }
 
 
@@ -294,7 +326,7 @@ img {
 
 /*bottoni filtro */
 .btn-2 a{
-  	padding: 0.6rem 1rem 0 1rem;    	
+  	padding: 0.4rem 1rem 0 1rem;    	
   	background-size: 100%;
 	height: 30px;
 	width: auto;
@@ -310,14 +342,16 @@ img {
 	color: #303030;
     text-decoration: none;
     border-top: 3px solid #303030;
-    margin-right: 20px;
-   
+    margin-right: 20px;   
 }
+
+
 
 .btn-2 a:hover {
 	font-weight: 600;
-    border-top: 3px solid #fd715f;
     color: #fd715f;
+    border-top: 3px solid #fd715f;
+    
 }
 
 .btn-2 a.current {
@@ -326,7 +360,50 @@ img {
     color: #fd715f;
 }
 
+.btn-3 a{
+  	padding-top: 0.4rem;    
+  	background-size: 100%;
+	height: 30px;
+	width: 100px;
+  	border: none;
+	font-family: 'IBM Plex Sans', sans-serif;
+	font-size: 13px;
+	letter-spacing: 0.6px;
+    text-transform: uppercase;
+    font-weight: 600;
+    background-color:transparent;
+	cursor: pointer;
+	color: #303030;
+    text-decoration: none;
+    border-top: 3px solid #303030;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.btn-3 a:hover {
+	color: #fd715f !important; 
+    border-top: 3px solid #fd715f;
+    background-color:transparent;
+}
+
+a:active {
+	border-top: 3px solid #fd715f !important;
+    color: #fd715f !important; 
+    background-color:transparent !important;
+}
+
+
+
+
 /*forme filtri*/
+
+h9{
+    text-transform: uppercase;
+    font-weight: 17px;
+    font-weight: 600;
+    color: #303030;
+    letter-spacing: 1.5;
+}
 
 .forms-btn{
     margin: 0px;
@@ -360,13 +437,6 @@ img {
     margin-top: 0.8rem;
 }
 
-h9{
-    text-transform: uppercase;
-    font-weight: 17px;
-    font-weight: 600;
-    color: #303030;
-    letter-spacing: 1.5;
-}
 
 .card-img-overlay{
     background-color: #303030;
@@ -450,3 +520,34 @@ h9{
   transition-property: transform, opacity;
 }
 
+
+/* TIPS */
+
+.list-group{
+    display: inline-block;
+    -webkit-box-orient: inline-axis;
+    -webkit-box-direction: normal;
+}
+
+.list-group-item{
+    padding: 0;
+}
+
+.list-group-item.active{
+    border-top: 3px solid #fd715f !important;
+    color: #fd715f !important; 
+    background-color:transparent !important;
+    
+}
+
+.list-group-item:first-child{
+    border-radius: 0px;
+}
+
+.fac-tips{
+    border: 2px solid #fd715f; 
+}
+
+.p-tips{
+    margin: 5px 0 15px 0;
+}
