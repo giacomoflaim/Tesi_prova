@@ -121,6 +121,7 @@ h3{
 	letter-spacing: 0.4px;
     color:#fd715f;
     text-align: right;
+    border-bottom: none;
 }
 
 h4{
@@ -217,6 +218,10 @@ p{
 
 .bot-30{
     margin-bottom: 30px;
+}
+
+.bot-80{
+    margin-bottom: 80px;
 }
 
 /* methods-scheda */

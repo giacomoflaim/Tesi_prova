@@ -1,0 +1,435 @@
+<! DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Glegoo|Hind:300|IBM+Plex+Sans:100,200,300,400,500,600,700" rel="stylesheet">
+
+    <title>Flock of Birds</title>
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+    
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="./css/" rel="stylesheet">
+    <link href="./css/bootstrap-grid.min.css" rel="stylesheet">    
+    <link href="css/mio.css" rel="stylesheet">  
+    
+    
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-5816319-16', 'auto');
+        ga('send', 'pageview');
+    </script>
+    
+</head>
+
+
+<body>
+	
+    
+<!-- MENU XS SM -->
+
+<nav class="navbar">    
+    <ul class="nav menu-sopra">
+        <li><a class="menu-sopra" id="alto-sx" href="#">home</a></li>
+        <li><a class="menu-sopra" id="alto-dx" href="methods.html">&lt; ALL methods</a></li>
+    </ul>
+    <ul class="nav menu-sotto">
+        <li><a class="menu-sotto" id="basso-sx" href="tips.html">tips</a></li>
+        <li><a class="menu-sotto" id="basso-dx" href="#">about</a></li>   
+    </ul>
+</nav>
+
+<div class="container" style="margin-top: 80px">
+    <div class="row">
+        <div class="offset-1 col-md-4">
+            <img id="image-metodo" src="./img/mariekondo_salmon.png" alt="lettura" > 
+        </div>
+        <div class="col-md-6">
+            <div class="row">
+                <div class="square"></div>
+                <div class="circle"></div>
+                <div class="square-2"></div> 
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <h1>Flock Of Birds</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>Map, explore and discover your dataset!</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <p>The goal of Flock Of Birds is to map and discover patterns and clusters that are hidden behind your dataset, in order to stimulate the communication inside the team and generate new ideas.
+                    In the Digital Methods context the network you will create and analyze depends directly from the platform that you chose. Thanks to Digital Methods tools and software like Gephi you will be able to explore and analyze different kind of networks both of images or texts, with the chance to add the hashtags that are correlated to those forms of content.
+                    Flock of Birds will allow the working group to do an in-depth study of the research field (also with really big dataset) in order to stimulate the conversation and the knowledge which will help to generate new ideas.
+                    </p>            
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container" style="margin-top: 60px;">
+    <div class="row">
+        <div class="offset-md-1 col-md-2">
+            <h4>Inspired by</h4>
+                <h7><a href="http://www.servicedesigntools.org/tools/23" class="link_style" target="_blank">Affinity Diagram</a></h7>
+            <h4>Content</h4>
+            <h7>Images<br>Hashtags<br>Texts</h7>
+            <h4>Platforms</h4>
+            <div class="list-group">
+                <h7><a class="link_style">Google</a></h7>
+                <h7><a class="link_style">Facebook</a></h7>
+                <h7><a class="link_style ">Twitter</a></h7>
+                <h7><a class="link_style">Instagram</a></h7>
+            </div>
+            <h4>Tools</h4>
+            <div class="list-group">
+                <h7> <a class="link_style">DownThemAll</a></h7>
+                <h7> <a class="link_style">Netvizz</a></h7>
+                <h7> <a class="link_style">Gazouilloire</a></h7>
+                <h7> <a class="link_style">Instagram Scraper</a></h7>
+            </div>
+            <h4>Difficulty Level</h4>
+            <h7>Hard</h7>
+        </div>
+        <div class="col-md-8">
+            <div class="row">                
+                <h5 style="text-align: right;">steps to do
+                </h5>
+                <div class="row top-30 left-0">
+                    <div class="btn-3 list-group"id="list-tab" role="tablist">
+                        <a class="list-group-item list-group-item-action forms-btn" id="list-Facebook-list" data-toggle="list" href="#list-Facebook" role="tab" aria-controls="Facebook" style="width: 160px; margin-left: 30px; max-height: 15px">Images & Hashtags</a>
+                        <a class="list-group-item list-group-item-action forms-btn" id="list-twitter-list" data-toggle="list" href="#list-twitter" role="tab" aria-controls="twitter" style="width: 70px;">Texts</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="tab-content" id="nav-tabContent">
+                <!-- IMAGE & HASHTAGS -->
+                <div class="tab-pane bot-40" id="list-Facebook" role="tabpanel" aria-labelledby="list-Facebook-list"> 
+
+                    <div class="row" style="margin-top:30px;">
+                        <div class="col-md-3 col-numeri rp">
+                           <h3>01</h3>
+                        </div>
+                        <div class="col-md-9">
+                            <h7>Identify the platform from which you want to gather the data.</h7>
+                        </div>
+                    </div>
+
+                    <div class="row" style="margin-top:30px;">
+                        <div class="col-md-3 col-numeri">
+                           <h3>02</h3>
+                        </div>
+                        <div class="col-md-9">
+                            <h7><a class="link_style" href="https://www.youtube.com/watch?v=oxfykoCKgz0" target="_blank">Design your query</a> in order to find the best set of words that represents your investigation, based also on the platform you just chose.</h7>
+                        </div>
+                    </div>
+
+                    <div class="row" style="margin-top:30px;">
+                        <div class="col-md-3 col-numeri">
+                           <h3>03</h3>
+                        </div>
+                        <div class="col-md-9">
+                            <h7>Use the Tools to gather data from the platform you choose in order to create your dataset of images.</h7>
+                        </div>
+                    </div>
+
+                    <div class="row" style="margin-top:30px;">
+                        <div class="col-md-3 col-numeri">
+                           <h3>04</h3>
+                        </div>
+                        <div class="col-md-9">
+                            <h7>Check manually the consistency of your dataset and eventually clean it from elements that are not related to your research field.</h7>
+                        </div>
+                    </div>
+
+                    <div class="row" style="margin-top:30px;">
+                        <div class="col-md-3 col-numeri">
+                           <h3>05</h3>
+                        </div>
+                        <div class="col-md-9">
+                            <h7>Decide the kind of network you want to create between the options you have (based on the platform you chose):</h7>
+                        </div>
+                    </div>
+
+                    <div class="row" style="margin-top:30px;">
+                        <div class="col-md-4 col-numeri">
+                           <h3>A</h3>
+                        </div>
+                        <div class="col-md-8">
+                            <h7>Map the connection between the elements based on the platforms metadata.</h7>
+                        </div>
+                    </div>
+
+                    <div class="row" style="margin-top:30px;">
+                        <div class="col-md-4 col-numeri">
+                           <h3>B</h3>
+                        </div>
+                        <div class="col-md-8">
+                            <h7>Map the content of the images through API analysis.</h7>
+                        </div>
+                    </div>
+
+                    <div class="row" style="margin-top:30px;">
+                        <div class="col-md-3 col-numeri">
+                           <h3>06</h3>
+                        </div>
+                        <div class="col-md-9">
+                            <h7>Create a Network based on the choice you just made:</h7>
+                        </div>
+                    </div>
+
+                    <div class="row" style="margin-top:30px;">
+                        <div class="col-md-4 col-numeri">
+                           <h3>A</h3>
+                        </div>
+                        <div class="col-md-8">
+                            <h7>According to the platform you choose in the point 1 use one of the tool that will generate a Gephi network.</h7>
+                        </div>
+                    </div>
+                    
+                    <div class="row" style="margin-top:30px;">
+                        <div class="col-md-4 col-numeri">
+                           <h3>B</h3>
+                        </div>
+                        <div class="col-md-8">
+                            <h7>Use the tool Table2Net in order to create a Network that you could explore in Gephi.</h7>
+                        </div>
+                    </div>
+                    
+                    <div class="row" style="margin-top:30px;">
+                        <div class="col-md-3 col-numeri">
+                           <h3>07</h3>
+                        </div>
+                        <div class="col-md-9">
+                            <h7>Use Gephi-add-images script to generate a images-network.</h7>
+                        </div>
+                    </div>
+                    
+                    <div class="row" style="margin-top:30px;">
+                        <div class="col-md-3 col-numeri">
+                           <h3>08</h3>
+                        </div>
+                        <div class="col-md-9">
+                            <h7>Design and Print your network for your co-designing session.</h7>
+                        </div>
+                    </div>
+                    
+                    <div class="row" style="margin-top:30px;">
+                        <div class="col-md-3 col-numeri-ws">
+                           <h3>09</h3>
+                        </div>
+                        <div class="col-md-9">
+                            <h7>Analyze the network during the co-design session: thanks the images-network all the participant will jump quickly inside the research field.</h7>
+                        </div>
+                    </div>
+                    
+                    <div class="row" style="margin-top:30px;">
+                        <div class="col-md-3 col-numeri-ws">
+                           <h3>10</h3>
+                        </div>
+                        <div class="col-md-9">
+                            <h7>Use this process to start conversations, generating new ideas and combining them into robust solutions.</h7>
+                        </div>
+                    </div>
+                <!-- WHAT NEXT -->
+                    <div class="row" style="margin-top: 40px;">                
+                            <h5 style="text-align: right; margin-left:65px;">WHAT NEXT</h5>
+                    </div>
+                    <div class="row" style="margin-top:30px;">
+                        <div class="col-md-3 col-numeri">
+                           <h4 style="text-align: right; margin-top:0px;">Open Mic</h4>
+                        </div>
+                        <div class="col-md-9">
+                            <h7>Focus on one idea and generate between 3 and 5 statements that describe the main characteristic of that group. Than use these statements as a starting point to bring further the conversation inside the working team.</h7>
+                        </div>
+                    </div>
+                    
+                    <div class="row" style="margin-top:30px;">
+                        <div class="col-md-3 col-numeri">
+                           <h4 style="text-align: right; margin-top:0px;">Flat Earth</h4>
+                        </div>
+                        <div class="col-md-9">
+                            <h7>Focus on one cluster, identify an obviousness (common behaviour) between all the elements of the group and try to deny it. By doing that you will stimulate further the conversation inside the work team.</h7>
+                        </div>
+                    </div>
+                    
+                    <div class="row" style="margin-top:30px;">
+                        <div class="col-md-3 col-numeri">
+                           <h4 style="text-align: right; margin-top:0px;">Super Jump</h4>
+                        </div>
+                        <div class="col-md-9">
+                            <h7>Focus on one cluster and find a common and relevant characteristic inside it. Once you identify it, step into a "parallel world", in which your characteristic plays an important role. Build another dataset that is representative of this parallel world; analyze it and find its strengths. Once you identify them, try to shift these strengths inside your research field.</h7>
+                        </div>
+                    </div>
+                    <!-- Who well -->
+                    <div class="row" style="margin-top: 40px;">                
+                            <h5 style="text-align: right; margin-left:-25px;">WHO'S DOING IT WELL</h5>
+                    </div>
+                    <div class="row" style="margin-top:30px;">
+                        <div class="offset-md-3 col-md-9">
+                            <h7 style="color:#fd715f; font-weight: 600;" >We don't have a case study for this method yet! Be first to sent us your case study.</h7>
+                            <div class="row" style="margin-bottom: 90px">
+                                <a href="" 	target="_blank">
+                                <button type="button" class="btn my-btn" style="padding-top:12px">submit a case study</button>
+                                </a>
+                                    <a href="" 	target="_blank">
+                                    <button type="button" class="btn my-btn" style="padding-top:12px">ask something</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- TEXT -->
+                <div class="tab-pane fade" id="list-twitter" role="tabpanel" aria-labelledby="list-twitter-list"> 
+
+                    <div class="row" style="margin-top:30px;">
+                        <div class="col-md-3 col-numeri rp">
+                           <h3>01</h3>
+                        </div>
+                        <div class="col-md-9">
+                            <h7><a class="link_style" href="https://www.youtube.com/watch?v=oxfykoCKgz0" target="_blank">Design your query</a> in order to find the best set of words that represents your investigation.</h7>
+                        </div>
+                    </div>
+
+                    <div class="row" style="margin-top:30px;">
+                        <div class="col-md-3 col-numeri">
+                           <h3>02</h3>
+                        </div>
+                        <div class="col-md-9">
+                            <h7>Use Gazouilloire to gather data from twitter and build your dataset.</h7>
+                        </div>
+                    </div>
+
+                    <div class="row" style="margin-top:30px;">
+                        <div class="col-md-3 col-numeri">
+                           <h3>03</h3>
+                        </div>
+                        <div class="col-md-9">
+                            <h7>Check the consistency of your dataset using Catwalk, so that you can clean it from elements that are not related to your research field.</h7>
+                        </div>
+                    </div>
+
+                    <div class="row" style="margin-top:30px;">
+                        <div class="col-md-3 col-numeri">
+                           <h3>04</h3>
+                        </div>
+                        <div class="col-md-9">
+                            <h7>Extract the hashtag from the tweets.</h7>
+                        </div>
+                    </div>
+
+                    <div class="row" style="margin-top:30px;">
+                        <div class="col-md-3 col-numeri">
+                           <h3>05</h3>
+                        </div>
+                        <div class="col-md-9">
+                            <h7>Use Dandelion API in order to pull the keywords out of the text.</h7>
+                        </div>
+                    </div>
+
+                    <div class="row" style="margin-top:30px;">
+                        <div class="col-md-3 col-numeri">
+                           <h3>06</h3>
+                        </div>
+                        <div class="col-md-9">
+                            <h7>Create a network in Gephi, which is based both on hashtags and keywords (from texts).</h7>
+                        </div>
+                    </div>
+
+                    <div class="row" style="margin-top:30px;">
+                        <div class="col-md-3 col-numeri-ws">
+                           <h3>07</h3>
+                        </div>
+                        <div class="col-md-9">
+                            <h7>Analyze the network during the co-design session: identify the most relevant clusters and create labels that describe them.</h7>
+                        </div>
+                    </div>
+
+                    <div class="row" style="margin-top:30px;">
+                        <div class="col-md-3 col-numeri-ws">
+                           <h3>08</h3>
+                        </div>
+                        <div class="col-md-9">
+                            <h7>Use this process to start conversations, generating new ideas and combining them into robust solutions.</h7>
+                        </div>
+                    </div>
+
+                    
+                <!-- WHAT NEXT -->
+                    <div class="row" style="margin-top: 40px;">                
+                            <h5 style="text-align: right; margin-left:65px;">WHAT NEXT</h5>
+                    </div>
+                    <div class="row" style="margin-top:30px;">
+                        <div class="col-md-3 col-numeri">
+                           <h4 style="text-align: right; margin-top:0px;">Open Mic</h4>
+                        </div>
+                        <div class="col-md-9">
+                            <h7>Focus on one idea and generate between 3 and 5 statements that describe the main characteristic of that group. Than use these statements as a starting point to bring further the conversation inside the working team.</h7>
+                        </div>
+                    </div>
+                    
+                    <div class="row" style="margin-top:30px;">
+                        <div class="col-md-3 col-numeri">
+                           <h4 style="text-align: right; margin-top:0px;">Flat Earth</h4>
+                        </div>
+                        <div class="col-md-9">
+                            <h7>Focus on one cluster, identify an obviousness (common behaviour) between all the elements of the group and try to deny it. By doing that you will stimulate further the conversation inside the work team.</h7>
+                        </div>
+                    </div>
+                    
+                    <div class="row" style="margin-top:30px;">
+                        <div class="col-md-3 col-numeri">
+                           <h4 style="text-align: right; margin-top:0px;">Super Jump</h4>
+                        </div>
+                        <div class="col-md-9">
+                            <h7>Focus on one cluster and find a common and relevant characteristic inside it. Once you identify it, step into a "parallel world", in which your characteristic plays an important role. Build another dataset that is representative of this parallel world; analyze it and find its strengths. Once you identify them, try to shift these strengths inside your research field.</h7>
+                        </div>
+                    </div>
+                    <!-- WHAT NEXT -->
+                    <div class="row" style="margin-top: 40px;">                
+                            <h5 style="text-align: right; margin-left:-25px;">WHO'S DOING IT WELL</h5>
+                    </div>
+                    <div class="row" style="margin-top:30px;">
+                        <div class="offset-md-3 col-md-9">
+                            <h7 style="color:#fd715f; font-weight: 600;" >We don't have a case study for this method yet! Be first to sent us your case study.</h7>
+                            <div class="row" style="margin-bottom: 90px">
+                                <a href="" 	target="_blank">
+                                <button type="button" class="btn my-btn" style="padding-top:12px">submit a case study</button>
+                                </a>
+                                    <a href="" 	target="_blank">
+                                    <button type="button" class="btn my-btn" style="padding-top:12px">ask something</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>   
+</div>
+
+<!-- script -->
+<script language="JavaScript" type="text/javascript" src="./js/isotope-docs.min.js"></script>
+<script language="JavaScript" type="text/javascript" src="./js/my-js.js"></script>
+    
+</body>

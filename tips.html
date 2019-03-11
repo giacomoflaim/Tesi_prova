@@ -139,7 +139,7 @@
         
                 <a class="list-group-item list-group-item-action forms-btn" id="list-Table2Net-list" data-toggle="list" href="#list-Table2Net" role="tab" aria-controls="Table2Net">Table2Net</a>
                 <a class="list-group-item list-group-item-action forms-btn" id="list-Gephi-list" data-toggle="list" href="#list-Gephi" role="tab" aria-controls="Gephi">Gephi</a>
-                <a class="list-group-item list-group-item-action forms-btn" id="list-GephiADDimage-list" data-toggle="list" href="#list-GephiADDimage" role="tab" aria-controls="GephiADDimage" style="width: 150px;">Gephi ADD Image</a>
+                <a class="list-group-item list-group-item-action forms-btn" id="list-GephiADDimage-list" data-toggle="list" href="#list-GephiADDimage" role="tab" aria-controls="GephiADDimage" style="width: 150px;">Gephi ADD ImageS</a>
                 <a class="list-group-item list-group-item-action forms-btn" id="list-OpenRefine-list" data-toggle="list" href="#list-OpenRefine" role="tab" aria-controls="OpenRefine">Open Refine</a>
                 <a class="list-group-item list-group-item-action forms-btn" id="list-Imagga-list" data-toggle="list" href="#list-Imagga" role="tab" aria-controls="Imagga">Imagga</a>
                 <a class="list-group-item list-group-item-action forms-btn" id="list-DDimage-list" data-toggle="list" href="#list-DDimage" role="tab" aria-controls="DDimage">DDimage</a>
@@ -149,7 +149,7 @@
   
     
     <div class="offset-1 col-6">
-        <div class="row top-60 left-0">    
+        <div class="row top-60 left-0 bot-80">    
             <div class="tab-content" id="nav-tabContent">
                 <div class="tab-pane fade show active">
                     <p class="top-0">please select a tool</p>
@@ -159,48 +159,218 @@
                         <p class="bot-8"><span class="semi-bold">Tool: </span><a class="link_style" href="https://apps.facebook.com/107036545989762/" target="_blank">Netvizz</a></p>
                         <p class="top-0 bot-8"><span class="semi-bold">What you can scrape: </span>Facebook Pages
                         <p class="top-0 bot-8"><span class="semi-bold">Info Extra: </span>login request | retroactive</p>
-                        <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Etiam porta sem malesuada magna mollis euismod. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis.
-
-                        Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Maecenas faucibus mollis interdum. Donec ullamcorper nulla non metus auctor fringilla. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Sed posuere consectetur est at lobortis.
-
-                        Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Donec id elit non mi porta gravida at eget metus. Donec id elit non mi porta gravida at eget metus. Donec ullamcorper nulla non metus auctor fringilla. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
+                        <p>Facebook is one of the biggest social networks. On Facebook you can create two different type of account (private profile and Facebook Pages) and two different type of groups (private and public).Netvizz is the tool developed by Digital Methods Initiative that helps you analyze different sections of the Facebook platform for research purposes.According to the privacy policy of Facebook, Netvizz allows you to retroactively gather data from Facebook Pages but not from Private Profiles.The following analysis are currently available: 
+                        <br> page like network: analyze networks of pages connected through the likes between them.
+                        <br>&#8226 page posts: analyze user activity around posts on pages.
+                        <br>&#8226 page timeline images: analyze images from the "Timeline Photos" album on pages.
+                        <br>&#8226 search: interface Facebook's search function.
+                        <br>&#8226 link stats: generate statistics for links shared on Facebook.
                         </p>
                         <div class="row">
                             <div class="col-md-12 fac-tips">
                                 <h4 style="margin-top: 15px;">FACILITATOR TIPS</h4>
-                                <p class="p-tips">Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Maecenas faucibus mollis interdum. Donec ullamcorper nulla non metus auctor fringilla. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Sed posuere consectetur est at lobortis.</p>
+                                <p class="p-tips"> &#8226 Big pages can take some time to process (minutes or hours). Be patient and don't try to reload!
+                                <br>&#8226 Netvizz will provide you only image-links. Use browser extension like Tab Save or Down Them All to download large amount of links at once.
+                                <br>&#8226 Google Sheets allows you to visualize the images (connected to a link) directly inside your working sheet. That is particularly helpful when you are cleaning your dataset.
+                                </p>
                             </div>
                         </div>
                 </div>
+                
                 <div class="tab-pane fade" id="list-twitter" role="tabpanel" aria-labelledby="list-twitter-list">
-                    twitter
+                        <h10 class="top-0">TWITTER</h10>
+                        <p class="bot-8"><span class="semi-bold">Tool: </span><a class="link_style" href="http://tools.medialab.sciences-po.fr/#gazouilloire" target="_blank">Gazouilloire</a></p>
+                        <p class="top-0 bot-8"><span class="semi-bold">What you can scrape: </span>tweets
+                        <p class="top-0 bot-8"><span class="semi-bold">Info Extra: </span>mandatory to run the script for the whole scrape | not retroactive</p>
+                        <p>Twitter is one of the biggest social networking, that allows its user to communicate via  tweets. A tweet is a short text of 140 or 280 characters, that includes hashtags or tags to other users and can also include images or videos. One of the main characteristic of Twitter is that the tweets are by default public and potentially readable from everyone.
+                        Gazouilloire is a tool developed by the Sciences Po Medialab that helps you to gather data from twitter. According to the privacy policies of Twitter you can not retroactively scrape informations from twitter.
+                        To start the scrape you have to follow the instructions in order to install the tool (instructions here).
+                        Please take note that in order to complete the scrape the tool has to run for the entire time frame you want to analyze.          
+                        </p>
+                        <div class="row">
+                            <div class="col-md-12 fac-tips">
+                                <h4 style="margin-top: 15px;">FACILITATOR TIPS</h4>
+                                <p class="p-tips"> &#8226 Catwalk is another tool developed by the Sciences Po Medialab. It allows you to clean your dataset from tweets not related to your field of investigation.
+                                </p>
+                            </div>
+                        </div> 
                 </div>
                 <div class="tab-pane" id="list-instagram" role="tabpanel" aria-labelledby="list-instagram-list">
-                    instagram
+                    
+                        <h10 class="top-0">INSTAGRAM</h10>
+                        <p class="bot-8"><span class="semi-bold">Tool: </span><a class="link_style" href="https://wiki.digitalmethods.net/Dmi/ToolInstagramScraper" target="_blank">Instagram Scraper</a></p>
+                        <p class="top-0 bot-8"><span class="semi-bold">What you can scrape: </span>public posts & public profiles
+                        <p class="top-0 bot-8"><span class="semi-bold">Info Extra: </span>retroactive</p>
+                        <p>Instagram is a social network focused on hashtags, images and the connection between these 2 elements. Profile can be public or private, and everyone can like, comment and share the different kind of content (post or stories). Instagram Scraper is the tool developed by Digital Methods Initiative that allows you to gather data from Instagram without writing a line of code.This tool only scrapes post based on usernames, hashtags and locations. Stories, pinned stories or IGTV content are not included in the scrape. Once the scrape is done, based on your research question, you can choose among these different outputs:
+                        <br>&#8226 A CSV file containing metadata for all scraped posts.
+                        <br>&#8226 A JSON file containing metadata for all scraped posts.
+                        <br>&#8226 A HTML table containing metadata for all scraped posts.
+                        <br>&#8226 A GXF graph, compatible with Gephi, with co-tag data. Co-tags are tags that appear together; the weight of the connection between two tags is determined by how often they appear together in the scraped posts.
+                        <br>&#8226 A GXF graph, compatible with Gephi, with post/hashtag data. Nodes consist of posts and hashtags; connections are formed between a post and all hashtags appearing in it.
+                        <br>&#8226 (Only when querying usernames) A CSV file with metadata for all scraped users.         
+                        </p>
+                        <div class="row">
+                            <div class="col-md-12 fac-tips">
+                                <h4 style="margin-top: 15px;">FACILITATOR TIPS</h4>
+                                <p class="p-tips"> &#8226 There are other tools (based on Python language) that allow you to scrape also stories and other type of content from Instagram (Instaloader, Instagram-scraper) <br>&#8226 Instagram Scraper will provide you only image-links. Use browser extension like Tab Save or Down Them All to download large amount of links at once.
+
+                                </p>
+                            </div>
+                        </div>    
                 </div>
                 <div class="tab-pane" id="list-google" role="tabpanel" aria-labelledby="list-google-list">
-                    google
+                        <h10 class="top-0">GOOGLE</h10>
+                        <p class="bot-8"><span class="semi-bold">Tool: </span><a class="link_style" href="https://chrome.google.com/webstore/detail/getthemall/fhkjfciooifcflkailbnchdaihccdebf" target="_blank">GetThemAll</a>
+                        <a class="link_style" href="https://wiki.digitalmethods.net/Dmi/ToolInstagramScraper" target="_blank">DownThemAll</a>
+                        <a class="link_style" href="https://wiki.digitalmethods.net/Dmi/ToolGoogleAutocomplete" target="_blank">Google Autocomplete</a></p>
+                        <p class="top-0 bot-8"><span class="semi-bold">What you can scrape: </span>images + autocomplete function.
+                        <p class="top-0 bot-8"><span class="semi-bold">Info Extra: </span>-</p>
+                        <p>Google.com is the most famous search engine and also the most visited website worldwide.
+                        There are a large number of tools that allow you to gather and analyze different type of data provide by google.com
+                        For example browser extensions help you to download large amount of images at once: GetThemAll works with Google Chrome and DowntThemAll for Firefox (it works only with an old version of Firefox that you can download from <a class="link_style" href="" target="_blank">here</a>.)
+                        There are also a lot of different Tools developed by the Digital Methods Initiative (here). One of these is the Autocomplete tool, which can be used in Open Mic method. It allows you to build a small dataset which uses the autocomplete google function, in order to build a new sentence or complete a query research.      
+                        </p>                    
                 </div>
                 <div class="tab-pane" id="list-amazon" role="tabpanel" aria-labelledby="list-amazon-list">
-                    amazon
+                        <h10 class="top-0">AMAZON</h10>
+                        <p class="bot-8"><span class="semi-bold">Tool: </span><a class="link_style" href="https://github.com/picorana/amazon-scraper" target="_blank">Amazon Scraper</a>
+                        </p>
+                        <p class="top-0 bot-8"><span class="semi-bold">What you can scrape: </span>comments & feedbacks.</p>
+                        <p class="top-0 bot-8"><span class="semi-bold">Info Extra: </span>retroactive</p>
+                        <p>Amazon is the largest worldwide internet company and is available in different Countries and different languages. That is why Amazon could be a really interesting source to analyze: infact amazon has a well used feedback system that could become an excellent source of data.
+                        Amazon-Scraper allows you to gather data from amazon based on item-codes.
+                        Firstly you need to install Python and Pip, than with an easy code line in the terminal, you will be able to extract the data you need.
+                        The tool works with Asin codes, unique item-codes that you can find in the item-links.
+                        In the Github-Tool webpage there are multiple options that allow you to scrape different kind of data, like item rating, comments and questions raised by users.
+                        </p>
+                    
+                        <div class="row">
+                            <div class="col-md-12 fac-tips">
+                                <h4 style="margin-top: 15px;">FACILITATOR TIPS</h4>
+                                <p class="p-tips"> This simple line of code allows you to gather all the information about these 3 different ASIN codes:
+                                    <br><span style="color:#fd715f">amazon-scraper B01H2E0J5M B01GYLZD8C B0736R3W1F</span>
+                                </p>
+                            </div>
+                        </div>
                 </div>        
                 <div class="tab-pane" id="list-Table2Net" role="tabpanel" aria-labelledby="list-Table2Net-list">
-                    Table2Net
+                        <h10 class="top-0">TABLE 2 NET</h10>
+                        <p class="bot-8"><span class="semi-bold">Tool: </span><a class="link_style" href="https://github.com/picorana/amazon-scraper" target="_blank">link</a>
+                        </p>
+                        <p class="top-0 bot-8"><span class="semi-bold">What you can do: </span>transform .cvs files in gephi networks</p>
+                        <p>Table2Net is a tool developed by the Sciences Po Medialab of Paris that allows you to create a Gephi network starting from a .csv file. Once that the dataset is uploaded choose the type of network you want to create among the options:
+                        <br>&#8226 Normal: single type of nodes network. For instance authors; they will be linked when they share a value in another column, for example papers.
+                        <br>&#8226 Bipartite: two types of nodes network. For instance authors and papers will be linked when they appear in the same row of the table.
+                        <br>&#8226 Citation: if you have a column containing references to another one, for instance paper title and cited papers (title).
+                        <br>&#8226 No link: a single type of nodes, without links.
+                        Once that the type of network is decided you can choose the column that will define the edges (links) of your network, plus eventually the attributes that also you want to include.
+                        Finally you can download the .gfx file and start to explore it in Gephi.
+                        </p>
+                    
+                        <div class="row">
+                            <div class="col-md-12 fac-tips">
+                                <h4 style="margin-top: 15px;">FACILITATOR TIPS</h4>
+                                <p class="p-tips"> Once you decide the column for nodes or edges click on the sample button in order to check that everything is correct.
+                                </p>
+                            </div>
+                        </div>
                 </div>
                 <div class="tab-pane" id="list-Gephi" role="tabpanel" aria-labelledby="list-Gephi-list">
-                    Gephi
+                    
+                        <h10 class="top-0">GEPHI</h10>
+                        <p class="bot-8"><span class="semi-bold">Tool: </span><a class="link_style" href="https://gephi.org/users/download/" target="_blank">link</a>
+                        </p>
+                        <p class="top-0 bot-8"><span class="semi-bold">What you can do: </span>explore networks</p>
+                        <p>Gephi is an open-source network analysis and visualization software.
+                        Networks are the representations of either symmetric relations or asymmetric relations between discrete objects. In computer science, a network can be defined as a graph in which nodes and/or edges have attributes. Edges in networks can be directed, undirected, weighted or unweighted. Networks can be normal (1 type of nodes) or bipartite (2 types of nodes).
+                        Gephi is a software that allows you to explore networks. You can build networks with tools like Table2Net or export networks directly from tools like netvizz t-cat or Gazouilloire.
+                        Table2Net is a tool that helps you build(no ing) a Network explorable in Gephi from a .csv
+                        Moreover thanks to Gephi Add Images, starting from a network you can create an image moodboard like in Flock Of Birds method.
+                        </p>
+                    
+                        <div class="row">
+                            <div class="col-md-12 fac-tips">
+                                <h4 style="margin-top: 15px;">FACILITATOR TIPS</h4>
+                                <p class="p-tips"> There is not the UNDO function, so you will not be able to reverse your last action.
+                                </p>
+                            </div>
+                        </div>
                 </div>
+                
                 <div class="tab-pane" id="list-GephiADDimage" role="tabpanel" aria-labelledby="list-GephiADDimage-list">
-                    GephiADDimage
+                        <h10 class="top-0">GEPHI ADD IMAGES</h10>
+                        <p class="bot-8"><span class="semi-bold">Tool: </span><a class="link_style" href="https://github.com/mikima/gephi-add-images" target="_blank">link</a>
+                        </p>
+                        <p class="top-0 bot-8"><span class="semi-bold">What you can do: </span>replace the nodes with images</p>
+                        <p>This Python script, developed by Michele Mauri, allows you to include images (if they are nodes) in a Gephi network. Firstly, you have to set the image name as label of the node itself. Secondly, export the network in a .svg format through the preview panel.
+                        Create a folder that contains the .svg file, the python script and all the images (in a subfolder).
+                        Load your folder and Run the Python script in the terminal writing the following line of code:
+                        <br><span style="color:#fd715f">python replace-with-images.py (input_file.svg) (name_of_images_folder) (upscaling) (output_file_name)</span><br>
+                        Now open your network in software that can read .svg file or in Chrome and you will see images instead of the nodes.
+                        </p>
+                    
+                        <div class="row">
+                            <div class="col-md-12 fac-tips">
+                                <h4 style="margin-top: 15px;">FACILITATOR TIPS</h4>
+                                <p class="p-tips">In order to load the folder you can also drag and drop it inside the terminal. Otherwise write the path.</p>
+                            </div>
+                        </div>
                 </div>
                 <div class="tab-pane" id="list-OpenRefine" role="tabpanel" aria-labelledby="list-OpenRefine-list">
-                    OpenRefine
+                        <h10 class="top-0">Open Refine</h10>
+                        <p class="bot-8"><span class="semi-bold">Tool: </span><a class="link_style" href="http://openrefine.org/" target="_blank">link</a>
+                        </p>
+                        <p class="top-0 bot-8"><span class="semi-bold">What you can do: </span>work with messy data</p>
+                        <p>Open Refine is an open source desktop application for data cleanup and transformation of dataset that is not well constructed.
+                        Two possible operations are:
+                        <br>&#8226 Cleaning messy data: for example if working with a text file with some semi-structured data, it can be edited using transformations, facets and clustering to make the data cleanly structured.
+                        <br>&#8226 Transformation of data: converting values to other formats, normalizing and denormalizing.
+                        Once you open the software you will be redirected to your browser where you can upload and start to work on your dataset. The number of operations you can do is enormous. It is suggested to read the documentation present in the wiki page or follow one of the several tutorial online.
+                        When you are done with your operation you can download your new dataset in different format, like .csv, .tsv, .xls, .json etc.
+                        </p>
+                    
                 </div>
                 <div class="tab-pane" id="list-Imagga" role="tabpanel" aria-labelledby="list-Imagga-list">
-                    Imagga
+                        <h10 class="top-0">IMAGGA</h10>
+                        <p class="bot-8"><span class="semi-bold">Tool: </span><a class="link_style" href="http://openrefine.org/" target="_blank">link</a>
+                        </p>
+                        <p class="top-0 bot-8"><span class="semi-bold">What you can do: </span>tag automatically your images corpus</p>
+                        <p>Imagga is an API image recognition system that analyzes your image-dataset in order to automatically assign tags to the images.
+                        Firstly download the IMAGGA folder from this link.
+                        In the IMAGGA folder you will find two subfolders (IMG & RESULT) plus a python script.
+                        Copy the image-corpus you want to analyze and paste it in the IMG folder; open the terminal and load the IMAGGA folder.
+                        Now run the script by writing the follow line of code in the terminal:
+                        python script.py IMG RESULT
+                        If you changed the names of the subfolders the general rule is: 
+                        <br><span style="color:#fd715f">python script.py (input_folder) (output_folder)</span><br>
+                        Once the script is over, your will find the .json file inside the RESULT folder with all the tags.
+                        </p>
+                    
+                        <div class="row">
+                            <div class="col-md-12 fac-tips">
+                                <h4 style="margin-top: 15px;">FACILITATOR TIPS</h4>
+                                <p class="p-tips">Use Open Refine to analyze and work on the .json file.</p>
+                            </div>
+                        </div>
                 </div>
                 <div class="tab-pane" id="list-DDimage" role="tabpanel" aria-labelledby="list-DDimage-list">
-                    DDimage
+                        <h10 class="top-0">DENSITY DESIGN IMAGE TAGGING</h10>
+                        <p class="bot-8"><span class="semi-bold">Tool: </span><a class="link_style" href="https://densitydesign.github.io/dd-image-tagging/" target="_blank">link</a>
+                        </p>
+                        <p class="top-0 bot-8"><span class="semi-bold">What you can do: </span>tag automatically your images corpus</p>
+                        <p>DD Image tagging is an online Tool developed by Density Design Lab that uses Clarify API in order to generate automatically descriptive tags of your images without metadata. It works directly with the image-urls and you don't have to write a single line of code.
+                        Firstly you have the prepare the .csv file with all the image-urls that you will upload in the tool. It's necessary that all the urls stay in the first column of the file (one url per line); plus the column must have a label in the first row.
+                        Sign up on Clarify in order to obtain API KEY (you can do it for free up to 5,000 operations/month).
+                        Insert your API KEY and upload your dataset, then choose among the 11 Clarify Models.
+                        Once the operation is over you will be able to download a new .csv file with all the tags that Clarify recognized inside the images.
+                        </p>
+                    
+                        <div class="row">
+                            <div class="col-md-12 fac-tips">
+                                <h4 style="margin-top: 15px;">FACILITATOR TIPS</h4>
+                                <p class="p-tips">It is advisable to create a copy of the original file because the tool will override all the columns except for the one that contains the image-urls.</p>
+                            </div>
+                        </div>
                 </div>
             </div>
         </div>
