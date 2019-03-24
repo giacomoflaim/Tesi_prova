@@ -29,13 +29,7 @@ $('.btn-2 a').click(function(){
     }); 
 }));
 
-/* prova tips */
-/*
-$('#myList a').on('click', function (e) {
-  e.preventDefault()
-  $(this).tab('show')
-})
-*/
+
 
 $(document).ready(function(){
     var hashVal = window.location.hash.split("#")[1];
