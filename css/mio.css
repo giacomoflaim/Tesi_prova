@@ -13,6 +13,9 @@ body {
     background-color: white; 
 }
 
+a:hover, a:visited {text-decoration: none;}
+
+
 /* navbar */
 
 #alto-sx{
@@ -224,7 +227,7 @@ p{
     font-family: 'IBM Plex Sans', sans-serif;
     font-weight: 700;
     font-size: 16px;
-	letter-spacing: 0.1;
+	letter-spacing: 0;
     color:#fd715f;
     margin-top: 15px;
     text-transform: uppercase;
@@ -355,6 +358,11 @@ img {
 .btn:hover {
 	border: 3px #fd715f solid;	
   	color: #fd715f;
+}
+
+.btn:focus{
+    outline: none !important; 
+    box-shadow: none;
 }
 
 
