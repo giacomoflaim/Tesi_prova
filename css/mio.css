@@ -325,6 +325,7 @@ img {
 	text-decoration:none;
 	background-image:linear-gradient(180deg,transparent 70%, rgba(253, 113, 95,.40) 0);
     cursor: pointer;
+    pointer-events: auto;
 	}
 
 .link_style:hover{
