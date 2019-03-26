@@ -361,6 +361,8 @@ img {
   	color: #fd715f;
 }
 
+
+
 .btn:focus{
     outline: none !important; 
     box-shadow: none;
@@ -368,13 +370,14 @@ img {
 
 
 
-.forms-btn{
-    
+.forms-btn{    
     margin-right: 10px;
     display: inline-flex;
     border: 2px solid #fd715f;
     margin-bottom: 30px;
 }
+
+
 
 
 
@@ -443,13 +446,7 @@ img {
     background-color:transparent;
 }
 
-/*
-a:active {
-	border-top: 3px solid #fd715f !important;
-    color: #fd715f !important; 
-    background-color:transparent !important;
-}
-*/
+
 
 
 
@@ -458,7 +455,7 @@ a:active {
 
 h9{
     text-transform: uppercase;
-    font-weight: 17px;
+    font-size: 17px;
     font-weight: 600;
     color: #303030;
     letter-spacing: 1.5;
