@@ -15,6 +15,14 @@ body {
 
 a:hover, a:visited {text-decoration: none;}
 
+::selection {
+    background: rgba(253, 113, 95, 0.4); /* WebKit/Blink Browsers */
+    color: #303030;
+}
+::-moz-selection {
+  background: #fd715f; /* Gecko Browsers */
+    color: white;
+}
 
 /* navbar */
 
