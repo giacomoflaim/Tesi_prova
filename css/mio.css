@@ -204,7 +204,9 @@ p{
     font-size: 40px;
 	letter-spacing: 0.5px;
     margin-top: 10px;
-     color: #fd715f;
+    color: #fd715f;
+    line-height: 48px;
+    margin-left: 0px;
 }
 
 .underline{
@@ -379,7 +381,20 @@ img {
     margin-bottom: 30px;
 }
 
+.highlight-code{
+    background-color: #f6f8fa;
+    border-radius: 3px;
+    overflow: auto;
+    color: #fd715f;
+    margin-top: 10px;
+    padding: 1rem 1rem 1rem 1rem;
+    overflow: auto;
+    white-space: nowrap;
+}
 
+highlight-code p {
+  display: inline-block;
+}
 
 
 
@@ -635,6 +650,36 @@ h9{
 
 
 
+.font-email{
+    font-family: 'IBM Plex Sans', sans-serif;    
+}
+
+
+
+
+@media screen and (min-width: 1025px) {
+    .only-mobile{
+        display: none;
+    }    
+    
+}
+
+@media screen and (max-width: 1024px) {
+    .no-mobile{
+        display:none;
+    }
+    
+    .home-titolo{
+        font-size: 10px;
+    }
+}
+
+.form-control{
+    border-radius: 0px !important; 
+    color: #303030 !important; 
+}
+
+
 
 @media screen and (max-width: 1282px) {
     .mac-13{
@@ -651,7 +696,8 @@ h9{
     font-size: 30px;
 	letter-spacing: 0.5px;
     margin-top: 10px;
-     color: #fd715f;
+    color: #fd715f;
+    
     }   
     
     .co-create{
@@ -666,4 +712,45 @@ h9{
         margin-top: 30px;
     }
     
+}
+
+
+@media screen and (min-width: 1025px) {
+    .only-mobile{
+        display: none;
+    }    
+    
+}
+
+@media screen and (max-width: 1024px) {
+    .no-mobile{
+        display:none;
+    }
+    
+    .co-create{
+        font-size: 13px;
+        margin-top: 6%;
+    }
+    
+    .home-titolo{
+        font-size: 21px;
+        line-height: 26px;        
+    }
+    
+    .tagline{
+        font-size: 14px;
+        margin-top: 13px;
+        padding-right: 10px;
+    }
+    
+    .underline{
+    border-bottom: 3px solid #fd715f;
+    height: 12px !important;
+    }
+    
+    .my-btn{
+        font-size: 14px;
+        margin-top: 5px;
+        padding: 0.3rem 0.6rem 0.3rem 0.6rem;
+    }
 }
