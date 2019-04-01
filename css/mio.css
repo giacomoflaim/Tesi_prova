@@ -111,8 +111,7 @@ h1{
 	letter-spacing: 2px;
     color:#303030;
     margin-bottom: 0px;
-    margin-left: -4px;
-    
+    margin-left: -4px;    
 }
 
 h2{
@@ -243,9 +242,38 @@ p{
     margin-top: 15px;
     text-transform: uppercase;
     line-height: 24px;
+    margin-top: 20px;
 }
 
+/*ABOUT */
+#title-about{
+    margin: 0;
+    padding: 0.5rem 0 0.5rem 0;
+    width: 100%;
+    text-align: center;
+    letter-spacing: 0.5px;
+}
+
+.medium-about{
+    line-height: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 0 0 5 0;    
+}
+
+.corpo-about{
+    font-size: 17px;
+    line-height: 28px;
+}
+
+
+
+
 /*GENERALE*/
+.top-80{
+    margin-top: 80px;
+}
+
 .top-60{
     margin-top: 60px;
 }
