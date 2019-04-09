@@ -45,7 +45,7 @@ $('.btn-email').click(function(){
         Host : "smtp.elasticemail.com",
         Username : "digital.driven.ideation.methods@gmail.com",
         Password : "a90cbf78-1bc9-4bea-bd3f-775e806cb430",
-        To : 'giacomo.flaim@yahoo.it',
+        To : 'fabio.catania@polimi.it',
         From : "digital.driven.ideation.methods@gmail.com",
         Subject : "This is the subject",
         Body : "And this is the body"
