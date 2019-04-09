@@ -40,7 +40,7 @@ $(document).ready(function(){
     }
 });
 
-$('.btn-email').click(function(){
+$('#btn-email').click(function(){
     Email.send({
         Host : "smtp.elasticemail.com",
         Username : "digital.driven.ideation.methods@gmail.com",
