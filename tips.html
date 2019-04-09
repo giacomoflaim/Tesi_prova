@@ -90,7 +90,7 @@
   </div>
   
     
-    <div class="offset-1 col-6">
+    <div class="offset-1 col-md-6">
         <div class="row top-60 left-0 bot-80">    
             <div class="tab-content" id="nav-tabContent">
                 <div class="tab-pane fade show active">
@@ -291,12 +291,12 @@
                         <br>Firstly you have to sign up on <a class="link_style" href="https://imagga.com/auth/signup/hacker" target="_blank">Imagga.com</a> and create a free account in order to obtain free API KEY (up to 2000 images/month). Then download the IMAGGA folder from this <a class="link_style" href="http://bit.ly/Imagga_Api" target="_blank">link</a>.
                         In the IMAGGA folder you will find two subfolders (IMG & RESULT) plus a python script. Open the python script with a text editor and insert your API Key on line 8 and 10.
                         Copy the image-corpus you want to analyze and paste it in the IMG folder; open the terminal and load the IMAGGA folder via path or drag and drop the folder on the terminal icon (mac-users).
-                        Now run the script by writing the follow line of code in the terminal:
-                        <br><span style="color:#fd715f">python tag.py img result</span>
-                        <br>If you changed the names of the subfolders the general rule is: 
-                        <br><span style="color:#fd715f">python tag.py (input_folder) (output_folder)</span><br>
-                        Once the script is over, your will find the .json file inside the RESULT folder with all the tags.
-                        </p>
+                        Now run the script by writing the follow line of code in the terminal:</p>
+                        <p class="highlight-code">$ &nbsp; python tag.py img result</p>
+                        
+                        <p>If you changed the names of the subfolders the general rule is:</p> 
+                        <p class="highlight-code">$ &nbsp; python tag.py (input_folder) (output_folder)</p>
+                        <p>Once the script is over, your will find the .json file inside the RESULT folder with all the tags.</p>
                     
                         <div class="row">
                             <div class="col-md-12 fac-tips">

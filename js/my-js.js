@@ -79,8 +79,19 @@ $('#download-img').click(function(){
         win.focus();
         
         });
-   
+});
+
+$('#download-hash').click(function(){
+    console.log("sono qui");
     
+    $.get( "./prova-text.csv", function(data) {
+        data = data.split("\n");
+        var item = data[Math.floor(Math.random()*data.length)];
+        
+        $('#modal-hashtag').modal('toggle');
+        $('#hashtag-random').text(item);
+        
+        });
 });
 
 
