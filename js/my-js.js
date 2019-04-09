@@ -66,4 +66,21 @@ $('#btn-email').click(function(){
 });
 
 
+$('#download-img').click(function(){
+    console.log("sono qui");
+    
+    $.get( "./prova.csv", function(data) {
+        data = data.split("\n");
+        var item = data[Math.floor(Math.random()*data.length)];
+        
+        var link = document.createElement('a');
+        link.href = item;
+        var win = window.open(item, '_blank');
+        win.focus();
+        
+        });
+   
+    
+});
+
 
