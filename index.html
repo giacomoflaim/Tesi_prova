@@ -33,6 +33,9 @@
         ga('send', 'pageview');
     </script>
     
+    
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    
 </head>
 
 
@@ -62,10 +65,30 @@
         <div class="form-group">
             <label for="exampleInputEmail1"></label>
             <input type="email" class="form-control font-email" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-            <small id="emailHelp" class="form-text text-muted font-email">We'll never share your email with anyone else.</small>
-        </div>  
-        <button type="submit" class="btn my-btn top-20" id="btn-email">send you a reminder</button>
-    </form>   
+            
+        </div>
+        <button type="button" id="btn-email" class="btn my-btn top-20 ">Send you a reminder</button>
+    </form>  
+    
+    <div class="modal" id="modal-email" tabindex="-1" role="dialog">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <p class="modal-title" style="color:#fd715f">Digital Driven Ideation Methods</p>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <p>Your email was sent! Please take a look in spam</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn my-btn" data-dismiss="modal">OK</button>
+                
+              </div>
+            </div>
+          </div>
+    </div>
 </div>
     
     
@@ -142,6 +165,8 @@
 <!-- script -->
 <script language="JavaScript" type="text/javascript" src="./js/isotope-docs.min.js"></script>
 <script language="JavaScript" type="text/javascript" src="./js/my-js.js"></script>
-<script src="https://smtpjs.com/v3/smtp.js"></script>
+<script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.3.2/email.min.js"></script>
+
+
     
 </body>
