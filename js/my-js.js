@@ -52,8 +52,8 @@ $('#btn-email').click(function(){
         Password : "a90cbf78-1bc9-4bea-bd3f-775e806cb430",
         To : $('#exampleInputEmail1').val(),
         From : "digital.driven.ideation.methods@gmail.com",
-        Subject : "This is the real subject",
-        Body : "<h2>This is a reminder!</h4><br><h3>Check out <a href=\"www.ddim.it\">www.ddim.it<a> from your desktop device</h4>"
+        Subject : "Reminder - Digital Driven Ideation Methods",
+        Body : "<h2>Hey!<br></h2><h4>This is a reminder, to Check out <br><a href=\"www.ddim.it\">www.ddim.it<a><br>from your desktop device</h4>"
         
     }).then(function(message){
         if(message === "OK")
