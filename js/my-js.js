@@ -53,7 +53,7 @@ $('#btn-email').click(function(){
         To : $('#exampleInputEmail1').val(),
         From : "digital.driven.ideation.methods@gmail.com",
         Subject : "Reminder - Digital Driven Ideation Methods",
-        Body : "<h2>Hey!<br></h2><h4>This is a reminder, to Check out <br><a href=\"www.ddim.it\">www.ddim.it<a><br>from your desktop device</h4>"
+        Body : "<h2>Hey! :)<br></h2><h4>This is a reminder, to Check out <br><a href=\"www.ddim.it\">www.ddim.it<a><br>from your desktop device</h4>"
         
     }).then(function(message){
         if(message === "OK")
